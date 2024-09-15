@@ -10,4 +10,4 @@ here you can visit the demonstration of the website:
 
 - future work includes: </br>
 
-- adding a shared token -that can be shared between a group of people)so anyone can use the website without needing to host it, and to enhance privacy.
+- adding a shared token -that can be shared between a group of people- so anyone can use the website without needing to host it, and to enhance privacy.
