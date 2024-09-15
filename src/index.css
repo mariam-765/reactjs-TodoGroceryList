@@ -1,0 +1,133 @@
+* {
+  font-family: 'Merriweather';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #202124;
+}
+
+h1,
+h2,
+h3,
+input,
+button {
+  font-family: Merriweather;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #002d68;
+  gap: 14px;
+}
+
+header {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  padding: 30px;
+}
+
+header,
+.main {
+  
+  width: 100%;
+  margin: 0 auto;
+  gap: 14px;
+}
+
+body input {
+  flex: 1;
+  border-radius: 14px;
+  outline: none;
+  width: 80%;
+  
+}
+
+body button {
+  border-radius: 14px;
+  background: transparent;
+  transition-duration: 200ms;
+  cursor: pointer;
+  width: 19%;
+  margin-left: 1%;
+ 
+}
+
+body button:hover {
+  opacity: 0.7;
+}
+
+body button,
+body input {
+  padding: 14px 18px;
+  border: none;
+  outline: none;
+  background: antiquewhite;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-left: 14px;
+  border-radius: 14px;
+  background: antiquewhite;
+}
+
+.todoItem p {
+  flex: 1;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.actionsContainer button {
+  transition-duration: 200ms;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.actionsContainer button:hover {
+  opacity: 0.7;
+}
+
+
+
+@media (min-width: 640px) {
+
+  body button,
+  body input {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
+
+h1{
+  font-size: 50px;
+  font-family: Lobster;
+ text-align: center;
+  color: antiquewhite;
+  padding-bottom: 2%;
+}
+
