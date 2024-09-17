@@ -10,4 +10,4 @@ here you can visit the demonstration of the website:
 
 - future work includes: </br>
 
-- adding a shared token -that can be shared between a group of people-
+- adding a shared token -that can be shared between a group of people for the same list-
